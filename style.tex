@@ -1,0 +1,10 @@
+% FNAL header setup
+\definecolor{NALblue}{RGB}{0,76,151}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\includegraphics[scale=0.25]{figures/FNAL-Logo-NAL-Blue.png}}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\headrule}{\hbox to\headwidth{%
+    \color{NALblue}\leaders\hrule height \headrulewidth\hfill}}
