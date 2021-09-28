@@ -1,4 +1,4 @@
-# FNAL ECA Template
+# FNAL ECA Preproposal Template
 
 This repository facilitates the combination of user content with central style and formatting provided by FNAL.
 
@@ -20,3 +20,5 @@ This repository can also be used as a base to create new projects on [Overleaf](
 There are several methods for this:
 1. New Project -> Import from GitHub (requires linking your GitHub account)
 2. Upload Project (download [zip file](https://github.com/kpedro88/FNAL_ECA_Template/archive/refs/heads/main.zip))
+
+This repository is set up on GitHub as a "template repository", so you can create your own repository based on it *without* needing to make a public fork, if desirable.
