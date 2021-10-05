@@ -7,6 +7,19 @@
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{xcolor}
+\usepackage{fullpage}
+\usepackage{titlesec}
+
+\setlength{\pdfpagewidth}{8.5in}
+\setlength{\pdfpageheight}{11in}
+\setlength{\parskip}{0pt}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+\titleformat{\section}{\normalfont\fontsize{11}{15}\bfseries}{\thesection}{1em}{}
+\setlength{\baselineskip}{13pt}
+
+\usepackage{titling}
+\setlength{\droptitle}{-4em} %default
+\addtolength{\droptitle}{-4pt} %extra adjustment
 
 \input{packages}
 
@@ -19,6 +32,7 @@
 
 \maketitle
 \thispagestyle{fancy}
+\vspace{-2\baselineskip}
 
 % to host your content
 \input{content}
