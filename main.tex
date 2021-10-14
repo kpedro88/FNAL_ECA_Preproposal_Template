@@ -20,6 +20,9 @@
 \usepackage{titling}
 \setlength{\droptitle}{-4em} %default
 \addtolength{\droptitle}{-4pt} %extra adjustment
+% handle multi-line title spacing
+\pretitle{\vspace{0.6\baselineskip}\begin{center}\linespread{1}}
+\posttitle{\par\end{center}}
 
 \input{packages}
 
