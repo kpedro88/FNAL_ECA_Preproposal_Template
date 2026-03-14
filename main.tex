@@ -9,6 +9,7 @@
 \usepackage{xcolor}
 \usepackage{fullpage}
 \usepackage{titlesec}
+\usepackage{lineno}
 
 \setlength{\pdfpagewidth}{8.5in}
 \setlength{\pdfpageheight}{11in}
@@ -32,12 +33,18 @@
 
 \begin{document}
 
+\pagenumbering{gobble}
 \maketitle
 \thispagestyle{fancy}
 \vspace{-1.5\baselineskip}
 
 \newpage
+\pagenumbering{arabic}
 \setcounter{page}{1}
+
+\ifdefined\linenoflag
+\linenumbers
+\fi
 
 % to host your content
 \input{content}
